@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6E131496-2A9B-453B-981C-BB8726927FF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "src\Application\Application.csproj", "{97B07B8B-C5C5-4150-8373-F450F6B0E634}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "src\Api\Api.csproj", "{EEC9568E-FA41-452C-B8B3-F7086DC19FD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "test\Test.csproj", "{4726B1D3-AED7-46C5-AE54-DE74542FCD43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97B07B8B-C5C5-4150-8373-F450F6B0E634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97B07B8B-C5C5-4150-8373-F450F6B0E634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97B07B8B-C5C5-4150-8373-F450F6B0E634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97B07B8B-C5C5-4150-8373-F450F6B0E634}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEC9568E-FA41-452C-B8B3-F7086DC19FD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEC9568E-FA41-452C-B8B3-F7086DC19FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEC9568E-FA41-452C-B8B3-F7086DC19FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEC9568E-FA41-452C-B8B3-F7086DC19FD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4726B1D3-AED7-46C5-AE54-DE74542FCD43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4726B1D3-AED7-46C5-AE54-DE74542FCD43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4726B1D3-AED7-46C5-AE54-DE74542FCD43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4726B1D3-AED7-46C5-AE54-DE74542FCD43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{97B07B8B-C5C5-4150-8373-F450F6B0E634} = {6E131496-2A9B-453B-981C-BB8726927FF0}
+		{EEC9568E-FA41-452C-B8B3-F7086DC19FD0} = {6E131496-2A9B-453B-981C-BB8726927FF0}
+	EndGlobalSection
+EndGlobal
